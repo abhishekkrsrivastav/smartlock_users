@@ -24,7 +24,7 @@ app.use('/api/user', userRoutes);
 app.use('/api', keywordRoutes)
 
 
-// ✅ API to process user command
+
 // app.post("/process-command", async (req, res) => {
 //     try {
 //       const { command } = req.body;
@@ -67,7 +67,7 @@ app.use('/api', keywordRoutes)
 //     }
 //   });
   
-//   // ✅ API to process user answer and get response
+
 //   app.post("/process-answer", async (req, res) => {
 //     try {
 //       const { question_id, answer } = req.body;

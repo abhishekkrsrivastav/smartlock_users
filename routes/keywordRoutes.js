@@ -1,9 +1,10 @@
 import express from 'express';
-import { getResponse } from '../controllers/keywordController.js';
+import { getResponse, askKeyword} from '../controllers/keywordController.js';
 
 const router = express.Router();
 
 
-router.post('/getresponse', getResponse)
+router.post('/askquestion', askKeyword);
+router.post('/getresponse', getResponse);
 
 export default router;
